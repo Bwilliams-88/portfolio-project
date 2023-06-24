@@ -1,6 +1,6 @@
 
 body {
-    background-color: bisque;
+    background-color: white;
     color: black;
 }
 
@@ -8,11 +8,17 @@ body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.h2 {
-    font-size: xx-large;
+h2 {
+    font-size: 50px;
+}
+
+a {
+    height: 100px;
+    width: 100px;
 }
 
 header {
+    border-radius: 8px;
     box-sizing: border-box;
     border-style: solid;
     border-color: black;
@@ -50,55 +56,60 @@ header div ul li {
     flex-wrap: wrap;
     max-height: 200px;
     float: left;
-    
 }
 
 .work img {
+    border-style: solid;
+    border-color:coral;
     border-radius: 8px;
     max-width: 2000px;
     max-height: 300px;
 }
 
-.work img, .placeholder-1 img, .placeholder-2 img, .placeholder-3 img, .placeholder-4 img {
+.workpics {
     display: flex;
     flex-wrap: wrap;
-    margin: 0;
+    flex-direction: row;
+    align-items: flex-start;
 }
 
-.contant-me {
-    box-sizing: border-box;
-    border-style: solid;
-    border-color: black;
-    background-color: darkgoldenrod;
+
+.contact-me {
     padding-left: 20px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .contact-me ul {
-    display: flex;
-    flex-wrap: wrap;
     list-style-type: none;
-    display: inline-block;
-    margin-right: 20px;
+    font-size: 25px;
 }
 
 .contact-me ul li {
     text-decoration: underline;
-    font-size: larger;
-    padding: 5px 10px; 
+    line-height: 32.5px;
 }
 
 article #work1 {
     column-count: 1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
 }
 
 article #row1 {
     column-count: 2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 article #row2 {
     column-count: 2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
