@@ -1,8 +1,15 @@
 
-
 body {
-    background-color: white;
+    background-color: bisque;
     color: black;
+}
+
+.h1, .h2 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.h2 {
+    font-size: xx-large;
 }
 
 header {
@@ -29,38 +36,69 @@ header div ul li {
     padding: 5px 10px;
 }
 
-.contact-me ul {
-    list-style-type: none;
-    display: inline-block;
-    margin-right: 20px;
-}
-
-
 .about-me {
+    text-indent: 5%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     align-items: center;
+    justify-content: right;
 }
 
 .about-me img {
+    border: solid;
+    border-radius: 8px;
     display:flex;
     flex-wrap: wrap;
     max-height: 200px;
     float: left;
+    
 }
 
 .work img {
     border-radius: 8px;
     max-width: 2000px;
     max-height: 300px;
-
 }
 
-.h1, .h2 {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.work img, .placeholder-1 img, .placeholder-2 img, .placeholder-3 img, .placeholder-4 img {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
 }
 
-.h2 {
-    font-size: xx-large;
+.contant-me {
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: black;
+    background-color: darkgoldenrod;
+    padding-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-me ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.contact-me ul li {
+    text-decoration: underline;
+    font-size: larger;
+    padding: 5px 10px; 
+}
+
+article #work1 {
+    column-count: 1;
+}
+
+article #row1 {
+    column-count: 2;
+}
+
+article #row2 {
+    column-count: 2;
 }
