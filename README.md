@@ -4,7 +4,7 @@
 
 
 # Deployed Webpage
-## https://github.com/Bwilliams-88/portfolio-project
+## [https://github.com/Bwilliams-88/portfolio-project](https://bwilliams-88.github.io/portfolio-project/)
 ![Alt text](image.png)
 
 
