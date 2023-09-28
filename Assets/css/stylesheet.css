@@ -17,6 +17,11 @@ body {
 h2 {
     font-size: 50px;
 }
+
+h2, u {
+    text-align: center;
+}
+
 h3 {
     font-size: 40px;
 }
@@ -69,9 +74,14 @@ header div ul li {
     border-radius: 8px;
 }
 
+#row1 img {
+    height: 400px;
+    width: 800px;
+}
 #row1 {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 #row2 {
